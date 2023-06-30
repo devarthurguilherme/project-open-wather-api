@@ -15,26 +15,28 @@
 <body>
     <div class="container">
         <div class="container__box-form">
-            <h3>See Weather Of A City</h3>
-            <div class="box-form__input-container">
-                <input type="text" placeholder="Digit here the name of a city">
-                <button id="search-btn">
-                    <i class="fa-solid fa-magnifying-glass"></i> 
-                </button>
-            </div>
+           <form action="">
+                <h3>See Weather Of A City</h3>
+                <div class="box-form__input-container">
+                    <input type="text" placeholder="Digit here the name of a city">
+                    <button id="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                    </button>
+                </div>
+           </form>
         </div>
         <div id="weather-data">
             <h2>
                 <i class="fa-solid fa-location-dot"></i>
                 <span id="city">Rio de Janeiro</span>
-                <img alt="" id="country">
+                <img id="country" src="https://www.countryflagicons.com/FLAT/64/BR.png">
             </h2>
             <p id="temperature">
-                <span>38</span>&deg;C
+                <span>38</span>&deg;
             </p>
             <div id="description-container">
                 <p id="description">Hot</p>
-                <img alt="Conditions of the Time" id="weather-icon">
+                <img src="http://openweathermap.org/img/wn/01d.png" alt="Conditions of the Time" id="weather-icon">
             </div>
             <div id="details-container">
                 <p id="umidity">
